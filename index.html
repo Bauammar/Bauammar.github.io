@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boostrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Cari Tukang</title>
+  </head>
+  <body id="home">
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bold" href="#">CARI TUKANG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Service </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#service">Home Maintenance</a></li>
+                <li><a class="dropdown-item" href="#service">Build and Renovate</a></li>
+                <li><a class="dropdown-item" href="#service">Home Desain</a></li>
+                <li><a class="dropdown-item" href="#service">Consultation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Home -->
+    <section id="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/tukang-1.jpg" class="d-block w-100" alt="tukang-1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tukang-2.jpg" class="d-block w-100" alt="tukang-2" />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tukang-3.jpg" class="d-block w-100" alt="tukang-3" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Home -->
+    <!-- Awal About Us -->
+    <section id="about-us">
+      <div class="container justify-content-center p-5">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-7">
+            <p class="fs-3"><span class="fw-bold fs-3">Cari Tukang</span> | Website Tukang Bangunan</p>
+            <p class="fs-4">Webite tukang bangunan yang menghubungkan berbagai kebutuhan anda dengan para tukang profesional di bidangnya masing-masing</p>
+            <p class="fs-4">
+              Saat ini kita hidup dimasa yang telah berkembang pesat hampir semua kebutuhan telah dapat didapatkan dari mana saja, tak tekeculi sektor tukang bangunan, dengan satu jari saja saat ini kita telah
+              dapat menerima layanan dari tukang profesional
+            </p>
+            <p class="fs-4">
+              Biarkan kami yang menangani kebutuhan mengenai pertukangan anda, dari awal hingga selesai. Kami akan mengusahakan menyelesaikannya dengan baik dengan dukungan dari mitra profesional dan
+              berkualitas dari <span class="fw-bold">Cari Tukang</span>
+            </p>
+            <button type="button" class="btn btn-outline-warning btn-lg">Lebih Lanjut..</button>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4 pt-4">
+            <img src="/img/ct-about.jpg" class="img-fluid" alt="about" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About Us -->
+    <!-- Awal Service -->
+    <section class="pt-5" id="service" style="background-color: lightgray">
+      <div class="container pt-4">
+        <div class="row text-center mt-5">
+          <div class="col">
+            <p class="fs-1 fw-bold">Our Service</p>
+            <p class="fs-3">Layanan terbaik yang dapat kami tawarkan kepada anda.</p>
+          </div>
+        </div>
+        <div class="row pb-5 justify-content-center">
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3">
+              <p class="fw-semibold fs-4 text-center">Home Maintenance</p>
+              <p class="fs-5">Melakukan perawatan rumah anda dengan profesional dengan standar yang sesuai.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3">
+              <p class="fw-semibold fs-4 text-center">Build and Renovation</p>
+              <p class="fs-5">Membuat rumah sesuai dengan keinginan anda dan melakukan renovasi seusuai kebutuhan anda.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3">
+              <p class="fw-semibold fs-4 text-center">Home Desain</p>
+              <p class="fs-5">Membuat desain rumah impian anda dimasa depan dengan profesional.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3">
+              <p class="fw-semibold fs-4 text-center">Consultation</p>
+              <p class="fs-5">Mendengar keluhan dan memberikan anda solusi dalam proses konsultasi mengenai rumah impian anda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Service -->
+    <!-- Why choose us -->
+    <section id="why-us" class="bg-warning pb-5">
+      <div class="container p-4 ">
+        <div class="row text-center">
+          <div class="col">
+            <p class="fs-1 fw-bold">Why Must Choose Us</p>
+            <p class="fs-3">Alasan mengapa anda dapat mempercayai kami.</p>
+          </div>
+        </div>
+        <div class="row pb-5 justify-content-center">
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3 bg-transparent">
+              <i class="bi bi-credit-card text-center" style="font-size: 80px"></i>
+              <p class="fw-semibold fs-4 text-center">Harga Stabil</p>
+              <p class="fs-5">Kami menawarkan harga yang tetap terjankau dan stabil.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3 bg-transparent">
+              <i class="bi bi-person-workspace text-center" style="font-size: 80px"></i>
+              <p class="fw-semibold fs-4 text-center">Profesional</p>
+              <p class="fs-5">Pekerja yang telah menjadi mitra merupakan tenaga kerja profesional dibidangnya.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3 bg-transparent">
+              <i class="bi bi-phone text-center" style="font-size: 80px"></i>
+              <p class="fw-semibold fs-4 text-center">Mudah di Gunakan</p>
+              <p class="fs-5">Kami menawarkan website yang mudah di gunakan dan dapat digunakan oleh berbagai.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 m-3">
+            <div class="card shadow-lg p-3 bg-transparent">
+              <i class="bi bi-clock text-center" style="font-size: 80px"></i>
+              <p class="fw-semibold fs-4 text-center">Waktu</p>
+              <p class="fs-5">Waktu yang dapat disesuaikan sesuai dengan keinginan anda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why choose us -->
+    <!-- Awal Pricing -->
+    <section id="pricing" class="pt-5">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <p class="fs-1 fw-bold">Pricing</p>
+                    <p class="fs-3">Daftar Harga yang kami tawarkan pada layanan kami.</p>
+                  </div>
+            </div>
+            <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm bg-transparent">
+                    <i class="bi bi-house-gear text-center" style="font-size: 80px"></i>
+                    <p class="fs-5 text-center"> Home Maintenance </p>
+                    <p class="fs-6 text-center">
+                        Rp. xxx.xxx.xxx
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm bg-transparent">
+                    <i class="bi bi-house-add text-center" style="font-size: 80px"></i>
+                    <p class="fs-5 text-center">Build and renovation</p>
+                    <p class="fs-6 text-center">
+                        Rp. xxx.xxx.xxx
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm bg-transparent">
+                    <i class="bi bi-buildings text-center" style="font-size: 80px"></i>
+                    <p class="fs-5 text-center">Home Desain</p>
+                    <p class="fs-6 text-center">
+                        Rp. xxx.xxx.xxx
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm bg-transparent">
+                    <i class="bi bi-clipboard2-pulse text-center" style="font-size: 80px"></i>
+                    <p class="fs-5 text-center">Consultation</p>
+                    <p class="fs-6 text-center">
+                        Rp. xxx.xxx.xxx
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm bg-transparent">
+                    <i class="bi bi-calendar-event text-center" style="font-size: 80px"></i>
+                    <p class="fs-5 text-center">Tukang Borongan</p>
+                    <p class="fs-6 text-center">
+                        Rp. xxx.xxx.xxx
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm bg-transparent">
+                    <i class="bi bi-calendar-date text-center" style="font-size: 80px"></i>
+                    <p class="fs-5 text-center">Tukang Harian</p>
+                    <p class="fs-6 text-center">
+                        Rp. xxx.xxx.xxx
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Pricing -->
+    <!-- kontak us -->
+    <section id="kontak">
+        <div class="container p-4 mt-5">
+            <div class="row text-center mb-3">
+              <div class="col">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="subjek" class="form-label">Subjek</label>
+                    <input type="text" class="form-control" id="subjek" aria-describedby="subjek" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesan" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="pesan" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- akhir kontak us -->
+    <!-- footer -->
+<footer>
+    <footer class="text-center p-3 bg-warning fw-bolder">
+        
+        <p><i class="bi bi-c-circle"></i> Created by <i class="bi bi-heart-fill text-danger"></i> by  <a href="https://www.instagram.com/ab_ammar21/" class="text-black fw-bold">Andi Bau Ammar</a></p>
+      </footer>
+</footer>
+    <!-- footer -->
+    <!-- Boostrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

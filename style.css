@@ -1,0 +1,24 @@
+span {
+  font-family: acme;
+}
+
+.navbar {
+  padding: 21px 100px;
+}
+
+.carousel-inner {
+  max-height: 720px;
+}
+
+#carousel {
+  padding-top: 6rem;
+}
+
+#about-us {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: acme;
+}
